@@ -262,5 +262,9 @@ nav label span{
     .hero_section img{
         margin-right: 0px;
         width: 100%;
+        object-fit: contain;
+    }
+    #assistant{
+        display: none;
     }
 }
