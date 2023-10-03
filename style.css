@@ -248,15 +248,19 @@ nav label span{
         height: 50px;
         width: 100px;
         font-size: 14px;
+        outline: 0;
+        border: 0;
     }
     .sign_in{
-        font-size: 14px;
+        font-size: 16px;
     }
     .hero_section{
         flex-direction: column;
         gap: 20px;
+        font-size: 28px;
     }
     .hero_section img{
         margin-right: 0px;
+        width: 100%;
     }
 }
