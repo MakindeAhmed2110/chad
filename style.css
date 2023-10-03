@@ -76,6 +76,31 @@ nav label span{
 
 
 
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    height: 70px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
 
 
 .hero_section{
@@ -257,7 +282,7 @@ nav label span{
     .hero_section{
         flex-direction: column;
         gap: 20px;
-        font-size: 28px;
+        font-size: 25px;
     }
     .hero_section img{
         margin-right: 0px;

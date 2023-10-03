@@ -1,3 +1,8 @@
+window.onload = function() {
+    alert("Welcome to our website!<br> Kindly hover against the sign up or sign in button ");
+}
+
+
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const navLink = document.querySelectorAll('.nav-link')
@@ -15,6 +20,8 @@ function closeMenu(){
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
